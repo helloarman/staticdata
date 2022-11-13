@@ -16,11 +16,11 @@ add.addEventListener('click',function(){
 
     var attribute2 = document.createElement('span');
     attribute2.classList.add('paragraph-styling');
-    attribute2.innerText =`{{ @$topCourse['${out}'] }}`;
+    attribute2.innerText =`{{ @$abcde['${out}'] }}`;
 
     var attribute3 = document.createElement('span');
     attribute3.classList.add('paragraph-styling');
-    attribute3.innerText =`{{ $topCourse->${out} }}`;
+    attribute3.innerText =`{{ $abcde->${out} }}`;
 
     output_list.appendChild(attribute);
     output_list_2.appendChild(attribute2);
