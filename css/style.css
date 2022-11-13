@@ -284,9 +284,10 @@ body{
 /* Output Field  */
 
 .output-box{
-    padding: 25px 15px 15px 25px;
+    padding: 10px 15px 10px 25px;
     border: solid 1px #c51313;
     background-color: #fff;
+    text-align: start;
 }
 
 label{
@@ -307,5 +308,9 @@ label{
 
 .modal-footer{
     border-radius: 0;
+}
 
+.paragraph-styling{
+    margin: 0;
+    font-size: 16;
 }
